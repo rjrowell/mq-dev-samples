@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "gettingStarted/com.ibm.mq.allclient-9.2.2.0.jar",
+        "gettingStarted/javax.jms-api-2.0.1.jar"
+    ]
+}
