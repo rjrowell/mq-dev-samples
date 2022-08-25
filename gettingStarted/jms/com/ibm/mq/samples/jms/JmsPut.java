@@ -54,12 +54,12 @@ public class JmsPut {
 	private static int status = 1;
 
 	// Create variables for the connection to MQ
-	private static final String HOST = "_YOUR_HOSTNAME_"; // Host name or IP address
+	private static final String HOST = "localhost"; // Host name or IP address
 	private static final int PORT = 1414; // Listener port for your queue manager
 	private static final String CHANNEL = "DEV.APP.SVRCONN"; // Channel name
 	private static final String QMGR = "QM1"; // Queue manager name
 	private static final String APP_USER = "app"; // User name that application uses to connect to MQ
-	private static final String APP_PASSWORD = "_APP_PASSWORD_"; // Password that the application uses to connect to MQ
+	private static final String APP_PASSWORD = "passw0rd"; // Password that the application uses to connect to MQ
 	private static final String QUEUE_NAME = "DEV.QUEUE.1"; // Queue that the application uses to put and get messages to and from
 
 
